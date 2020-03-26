@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.learn.springboot</groupId>
+  <artifactId>demo.first</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>First Demo Spring Boot</name>
+  <description>First demo project using spring boot</description>
+  
+  <properties>
+		<java.version>1.8</java.version>
+	</properties>
+  
+  <parent>
+  	<groupId>org.springframework.boot</groupId>
+  	<artifactId>spring-boot-starter-parent</artifactId>
+  	<version>2.2.1.RELEASE</version>
+  </parent>
+  
+  <dependencies>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency><!--Note that we have not given any version number here. 
+	Parent project informs maven what version to download for this dependency. This is another
+	example of openionated -->
+	
+  </dependencies>
+</project>
